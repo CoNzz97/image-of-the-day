@@ -16,5 +16,3 @@ with requests.get(APOD_URL, params) as request:
 image_of_the_day = returned["url"]
 image_title = returned["title"]
 image_explanation = returned["explanation"]
-
-print(image_explanation)
